@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>IntegraTest</id>
+    <version>1.0.0</version>
+    <authors>IntegraTest</authors>
+    <owners>IntegraTests</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Base helpers</description>
+    <releaseNotes>Stuff, and some things</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+  </metadata>
+</package>
