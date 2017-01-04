@@ -15,7 +15,8 @@ namespace Integratest.Security
             var payload = new Dictionary<string, object>()
             {
                 { "email", request.UserEmail },
-                { "id", request.UserId }
+                { "id", request.UserId },
+                { "roles", request.Roles}
             };
             var secretKey = _jwtSecret;
             string token = JWT.JsonWebToken.Encode(payload, secretKey, JWT.JwtHashAlgorithm.HS256);

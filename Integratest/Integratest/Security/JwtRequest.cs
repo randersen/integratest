@@ -10,5 +10,6 @@ namespace Integratest.Security
     {
         public string UserEmail { get; set; }
         public string UserId { get; set; }
+        public string[] Roles { get; set; }
     }
 }
